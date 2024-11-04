@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+body {
+    min-height: 100vh;
+}
+
+
+/* ==============
+typografi
+================= */
+
+.logo p {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: white;
+
+}
+
+i {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+/* ==============
+layout-header
+================= */
+
+.flex-container-header {
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.logo {
+    display: flex;
+    gap: 1rem;
+}
+
+
+
+
+.nav-bar {
+    display: flex;
+    gap: .5rem;
+}
+
+.flex-hero {
+    background-color:#dadbf1;
+    min-height: 40vh;
+}
+
+.flex-hero h1 {
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+
+.flex-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    /* border: solid; */
+    
+}
+
+
+.input-h1-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    /* border: solid; */
+    width: 100%;
+    
+}
+
+input {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.3rem;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+
+
+
