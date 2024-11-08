@@ -60,25 +60,29 @@ layout-header
     cursor: pointer;
 }
 
-.flex-hero {
-    background-color:#dadbf1;
-    min-height: 40vh;
-}
+
 
 .flex-hero h1 {
     font-size: 3rem;
     font-weight: 400;
+    margin-top: 3rem;
 }
 
 .flex-hero {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 1em;
-    /* border: solid; */
+    align-items: center; */
+    padding: 2em;
+    max-width: 720px;
+    margin: 0 auto;
+    min-height: 40vh;
+    
     
 }
-
+.background-container {
+    background: #dadbf1;
+    
+}
 
 .input-h1-container {
     display: flex;
