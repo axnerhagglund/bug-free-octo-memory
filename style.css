@@ -47,6 +47,9 @@ layout-header
     display: flex;
     gap: 1rem;
 }
+.abstract-logo {
+    width: 150px;
+}
 
 
 
@@ -63,7 +66,7 @@ layout-header
 }
 
 .flex-hero h1 {
-    font-size: 2.4rem;
+    font-size: 3rem;
     font-weight: 400;
 }
 
@@ -97,9 +100,51 @@ input {
 }
 
 
-.abstract-logo {
-    width: 150px;
+
+/* cards and stuff in main */
+
+
+.card-rubrik {
+    font-size: 2rem;
 }
+
+.card-text {
+    font-size: 1.3rem;
+}
+
+.card-link {
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #1a73e8;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.card-container {
+    padding: 2em;
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 500px;
+    gap: 1rem;
+    
+}
+
+@media (min-width: 900px) {
+    .card-container {
+      flex: 1 1 50%; 
+    }
+  }
+
 
 
 
